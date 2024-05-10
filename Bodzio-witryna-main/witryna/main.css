@@ -1,0 +1,49 @@
+body{
+    margin: 0;
+    background-color: #FDFFFC;
+}
+div{
+    display: flex;
+    flex-wrap: wrap;
+}
+nav{
+    flex-basis: 100%;
+    display: flex;
+    padding:  2rem;
+    background-color: #FF9F1C;
+    align-items: center;
+    box-sizing: border-box;
+    gap: 5rem;
+    border: #011627 solid 1rem;
+    border-radius: 20px;
+    margin: 0;
+}
+main{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: #011627;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: none;
+    transition: 0.5s;
+}
+a:hover{
+    transition: 0.5s;
+    color: #2EC4B6;
+}
+header{
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    justify-content: center;
+    color: #011627;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+    padding: 1.5rem;
+}
