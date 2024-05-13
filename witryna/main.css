@@ -1,6 +1,6 @@
 body{
     margin: 0;
-    background-color: #FDFFFC;
+    background-color: #FFDDAD;
 }
 div{
     display: flex;
@@ -20,6 +20,7 @@ nav{
 }
 main{
     display: flex;
+    flex-wrap: wrap;
     flex-basis: 100%;
     align-items: center;
     justify-content: center;
@@ -47,3 +48,29 @@ header{
     font-size: xx-large;
     padding: 1.5rem;
 }
+/* .container{
+    margin: 0;
+    width: 100%;
+} */
+footer{
+    flex-basis: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding:  2rem;
+    background-color: #FF9F1C;
+    align-items: center;
+    box-sizing: border-box;
+    border: #011627 solid 0.5rem;
+    border-radius: 20px;
+    margin: 0;
+}
+table, th, td {
+    border: #011627 solid 0.2rem;
+    border-collapse: collapse;
+
+  }
+  table {
+    margin: 2em;
+  }
