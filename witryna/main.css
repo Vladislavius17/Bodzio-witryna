@@ -1,3 +1,6 @@
+
+
+
 body{
     margin: 0;
     background-color: #FFDDAD;
@@ -19,15 +22,17 @@ nav{
     margin: 0;
 }
 main{
-    display: flex;
-    flex-wrap: wrap;
     flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;   
     align-items: center;
     justify-content: center;
     color: #011627;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-
+img{
+    max-width: 100%;
+}
 a{
     color: #011627;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -67,10 +72,78 @@ footer{
     margin: 0;
 }
 table, th, td {
-    border: #011627 solid 0.2rem;
+    border: #011627 dashed 0.2rem;
     border-collapse: collapse;
 
   }
   table {
     margin: 2em;
   }
+  
+td > img{
+    max-width: 200px;
+}
+th{
+    padding: 1rem;
+}
+section{
+    flex-basis: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center
+}
+@media (min-width: 300px) {
+    nav{
+        padding:  0.3rem;
+        gap: 1.5rem;
+        border: #011627 solid 0.4rem;
+        border-radius: 20px;
+    }
+    table {
+        margin: 0;
+      }
+      
+    td > img{
+        max-width: 150px;
+    }
+    th{
+        padding: 0.3rem;
+    }
+    section{
+        flex-basis: 100%;
+    }
+}
+
+@media (min-width: 600px) {
+    nav{
+        padding:  1.5rem;
+        gap: 4rem;
+        border: #011627 solid 0.5rem;
+        border-radius: 20px;
+    }
+    section{
+        flex-basis: 50%;
+    }
+}
+@media (min-width: 900px) {
+    nav{
+        padding:  2rem;
+        gap: 5rem;
+        border: #011627 solid 1rem;
+        border-radius: 20px;
+    }
+    table {
+        margin: 2em;
+      }
+      
+    td > img{
+        max-width: 200px;
+    }
+    th{
+        padding: 1rem;
+    }
+    section{
+        flex-basis: 50%;
+    }
+
+}
