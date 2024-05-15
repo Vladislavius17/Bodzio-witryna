@@ -39,6 +39,12 @@ a{
     text-decoration-line: none;
     transition: 0.5s;
 }
+td > a{
+    color: #2EC4B6;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration-line: underline;
+    transition: 0.5s;
+}
 a:hover{
     transition: 0.5s;
     color: #2EC4B6;
@@ -83,6 +89,9 @@ table, th, td {
 td > img{
     max-width: 200px;
 }
+td{
+    padding: 1rem;
+}
 th{
     padding: 1rem;
 }
@@ -112,6 +121,9 @@ section{
     section{
         flex-basis: 100%;
     }
+    td{
+        padding: 0.5rem;
+    }
 }
 
 @media (min-width: 600px) {
@@ -122,7 +134,10 @@ section{
         border-radius: 20px;
     }
     section{
-        flex-basis: 50%;
+        flex-basis: 100%;
+    }
+    td{
+        padding: 1rem;
     }
 }
 @media (min-width: 900px) {
@@ -144,6 +159,9 @@ section{
     }
     section{
         flex-basis: 50%;
+    }
+    td{
+        padding: 1rem;
     }
 
 }
