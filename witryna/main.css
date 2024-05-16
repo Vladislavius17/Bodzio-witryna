@@ -9,6 +9,9 @@ div{
     display: flex;
     flex-wrap: wrap;
 }
+.container{
+    position: sticky;
+}
 nav{
     flex-basis: 100%;
     display: flex;
