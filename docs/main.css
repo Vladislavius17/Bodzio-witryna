@@ -8,6 +8,7 @@ body{
 div{
     display: flex;
     flex-wrap: wrap;
+    
 }
 .container{
     position: sticky;
@@ -23,6 +24,8 @@ nav{
     border: #011627 solid 1rem;
     border-radius: 20px;
     margin: 0;
+    position: sticky;
+    top: 0;
 }
 main{
     flex-basis: 100%;
@@ -35,6 +38,8 @@ main{
 }
 img{
     max-width: 100%;
+    box-shadow: -0.5em 0.5em #2EC4B6;
+    border-radius: 50px;
 }
 a{
     color: #011627;

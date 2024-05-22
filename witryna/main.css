@@ -35,6 +35,7 @@ main{
 }
 img{
     max-width: 100%;
+    box-shadow: 2px 0px #2EC4B6;
 }
 a{
     color: #011627;
